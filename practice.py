@@ -1,26 +1,9 @@
-a = str(input(""))
-a += "~" # a뒤에 ~붙이기
-print (a)
-a *= 2 # a를 두번반복 
-print (a) 
+i,dan =0,0
 
-b = int(input(""))
-b += 10
-print(b)
-b -=10
-print(b)
-b *= 2
-print(b)
-b /= 2
-print(b)
-b **= 2
-print (b)
-b %= 2
-print (b)
+dan = int(input("단을 입력하세요"))
 
-c = str(1234)
-print(len(c))
-print(len("\""))
+for i in range(1,10,1):
+    print("%d x %d = %2d" %(dan,i,dan*i))
 
 
       
